@@ -1,6 +1,4 @@
-#include <main.h>
 #include "main.h"
-
 /**
  * main - Prints putchar
  *
@@ -8,12 +6,12 @@
  */
 int main(void)
 {
-	char chi[] = "_putchar";
+	char uju[] = "_putchar";
 	int i = 0;
 
-	while (chi[i] != '\0')
+	while (uju[i] != '\0')
 	{
-		_putchar(chi[i]);
+		_putchar(uju[i]);
 		i++;
 	}
 	_putchar('\n');
