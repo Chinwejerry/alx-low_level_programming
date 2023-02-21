@@ -6,14 +6,15 @@
  */
 int main(void)
 {
-	char cinell[] = "_putchar";
+	char chi[] = "_putchar";
 	int i = 0;
 
-	while (cinell[i] != '\0')
+	while (chi[i] != '\0')
 	{
-		_putchar(cinell[i]);
+		_putchar(chi[i]);
 		i++;
 	}
 	_putchar('\n');
 
 	return (0);
+}
