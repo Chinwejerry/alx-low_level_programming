@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	char uju[] = "_putchar";
+	char chi[] = "_putchar";
 	int i = 0;
 
-	while (uju[i] != '\0')
+	while (chi[i] != '\0')
 	{
-		_putchar(uju[i]);
+		_putchar(chi[i]);
 		i++;
 	}
 	_putchar('\n');
