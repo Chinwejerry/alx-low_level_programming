@@ -1,30 +1,35 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
+#ifndef MAIN_H
+
+#define MAIN_H
 
 
 
 int _putchar(char c);
 
-int _isupper(int c);
+char *_strcat(char *dest, char *src);
 
-int _isdigit(int c);
+char *_strncat(char *dest, char *src, int n);
 
-int mul(int a, int b);
+char *_strncpy(char *dest, char *src, int n);
 
-void print_numbers(void);
+int _strcmp(char *s1, char *s2);
 
-void print_most_numbers(void);
+void reverse_array(int *a, int n);
 
-void more_numbers(void);
+char *string_toupper(char *);
 
-void print_line(int n);
+char *cap_string(char *);
 
-void print_diagonal(int n);
+char *leet(char *);
 
-void print_square(int size);
-
-void print_triangle(int size);
+char *rot13(char *);
 
 void print_number(int n);
+
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
+void print_buffer(char *b, int size);
+
+
 
 #endif
